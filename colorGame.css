@@ -13,9 +13,22 @@ body {
     transition: background 0.5s;
 }
 
+h2{
+    background: yellow;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-decoration-color: teal;
+    font-weight: 700;
+}
+
 #container{
     margin: 20px auto;
     max-width: 600px;
+}
+h2 span{
+    background-color: turquoise;
 }
 
 h1{
