@@ -11,6 +11,7 @@ var colorDisplay= document.getElementById("colorDisplay");
 var easyMode = document.getElementById("easy");
 var hardMode = document.getElementById("hard");
 var Message = document.getElementById("message");
+var LearnButton = document.getElementById("LEARN");
 
 
     colorDisplay.textContent = pickedcolor;
@@ -23,6 +24,13 @@ var Message = document.getElementById("message");
         squares[i].addEventListener("click", select_Square);
       
     }
+
+    LearnButton.addEventListener("click", function(){
+        window.location="howToPlay.html"
+    });
+   
+
+
 
 easyMode.addEventListener("click", function(){
     NumOfColors = 3;
